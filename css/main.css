@@ -1,0 +1,215 @@
+body{
+  font-family: 'Noto Sans HK', sans-serif;
+}
+
+#header{
+  background: #3a3a3a;
+}
+
+#navbar a{
+    font-size: 20px;
+    transition: color 1s ease-in-out 2s;
+}
+
+#navbar a:hover{
+    color: #ffff5b;
+}
+
+/*########## navbar ##############*/
+
+.navbar{
+  background: #2a2a2a;
+  padding: 10px 20px;
+  transition: padding 2s ease;
+}
+
+.navbar-background{
+  padding: 2px 20px;
+}
+
+.navbar-brand{
+    color: #007BFF;
+    font-size: 20px;
+    border: 3px solid #007BFF;
+    transition: all 2s ease;
+}
+
+.navbar-brand:hover{
+    background: #1a1a1a;
+    color:#ffff;
+    border: 3px solid #fff;
+}
+
+.bar1, .bar2, .bar3{
+    width: 23px;
+    height: 3px;
+    margin: 5px;
+    background: #007BFF;
+    transition: all 0.5;
+}
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
+.nav-link{
+  color: #007BFF;
+  font-size: 20px;
+  padding: 10px 7px!important;
+  border-radius: 2px;
+  transition: background 2s ease;
+}
+
+.nav-link:hover{
+  background: #1d1d1d;
+  color: #fff;
+}
+
+.nav-active{
+  color: #ffff5b;
+  padding: 10px 7px!important;
+  background: rgba(20,20,20, 0.8);
+}
+
+/*########## navbar ##############*/
+
+.yellow{
+  color: #ffff5b;
+}
+.yellow-bg{
+  background-color: #ffff5b;
+}
+
+.dgray-bg{
+  background-color: #1a1a1a;
+}
+.gray{
+  color: #1d1d1d;
+}
+.gray-bg{
+  background-color: #1d1d1d;
+}
+
+.blue{
+  color: #001433;
+}
+.blue-bg{
+  background-color: #001433;
+}
+
+.plue{
+  color: #ffccff;
+}
+
+.plue-bg{
+  background-color: #ffccff;
+}
+
+.green{
+  color: #99ffd6;
+}
+.green-bg{
+  background-color: #99ffd6;
+}
+
+.brown{
+  color: #cc7a00;
+}
+
+.brown-bg{
+  background-color: #cc7a00;
+}
+
+.boogreen{
+  color: #999966;
+}
+
+.boogreen-bg{
+  background-color: #999966;
+}
+
+.gr{
+  color: #b9b992;
+}
+
+.height{
+    /* height: 450px; */
+    min-height: 110vh;
+}
+
+.height10{
+    min-height: 10vh;
+}
+
+.height90{
+    /* height: 450px; */
+    min-height: 90vh;
+}
+
+.height80{
+    /* height: 450px; */
+    min-height: 80vh;
+}
+
+.height72{
+    min-height: 72vh;
+}
+
+.height64{
+    min-height: 64vh;
+}
+
+.height56{
+    min-height: 56vh;
+}
+
+.height30{
+    max-height: 30vh;
+}
+
+.height-about{
+    min-height: 80vh;
+}
+
+.p100{
+    padding: 150px;
+}
+
+.max-ph{
+    height: 150px;
+}
+
+.max-ph2{
+    height: 200px;
+}
+
+.about-image{
+  background: url(../img/about-bg.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-no-repeat;
+  background-attachment: absolute;
+}
+
+#front-end{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../img/front-end.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-no-repeat;
+  background-attachment: absolute;
+}
+
+.quote, footer{
+    font-family: monospace;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
